@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const { encode, decode } = require('@msgpack/msgpack');
 const os = require('os');
 
-const PORT = 10000;
+const PORT = process.env.PORT || 10000;
 const isSecure = !!process.env.WSS;
 const protocol = isSecure ? "wss" : "ws";
 const ip = getLocalIp();
