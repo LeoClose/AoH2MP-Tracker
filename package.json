@@ -1,0 +1,23 @@
+{
+  "name": "server-service",
+  "version": "1.0.0",
+  "description": "AoHIIMP Rooms Hosting Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoClose/AoHIIHostingService.git"
+  },
+  "author": "LeoClose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoClose/AoHIIHostingService/issues"
+  },
+  "homepage": "https://github.com/LeoClose/AoHIIHostingService#readme",
+  "dependencies": {
+    "@msgpack/msgpack": "^3.1.2",
+    "ws": "^8.18.3"
+  }
+}
